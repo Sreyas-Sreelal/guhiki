@@ -15,7 +15,7 @@ impl fmt::Display for LexicalError {
                 write!(f, "[Error]: Invalid String Literal")
             }
             LexicalError::InvalidIntegerConstant(_, _, constant) => {
-                write!(f, "[Error]: Invalid Integer Constant {}", constant)
+                write!(f, "[Error]: Aah number ivide irakanda {}", constant)
             }
         }
     }
